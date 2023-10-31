@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:simple_form/pages/form/widgets/transfer-money-form/transfer_money_form.dart';
+
 class FormPage extends StatelessWidget {
   const FormPage({super.key});
 
@@ -17,7 +19,7 @@ class FormPage extends StatelessWidget {
           ),
         ),
       ),
-      body: const Placeholder(),
+      body: const TransferMoneyForm(),
     );
   }
 }
